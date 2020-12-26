@@ -13,21 +13,21 @@ export function loadCoursesSuccess(courses) {
     return { type: types.LOAD_COURSES_SUCCESS, courses };
 }
 
-function createCourseSuccess(course) {
+export function createCourseSuccess(course) {
     return {
         type: types.CREATE_COURSE_SUCCESS,
         course,
     };
 }
 
-function updateCourseSuccess(course) {
+export function updateCourseSuccess(course) {
     return {
         type: types.UPDATE_COURSE_SUCCESS,
         course,
     };
 }
 
-function deleteCourseOptimistic(course) {
+export function deleteCourseOptimistic(course) {
     return { type: types.DELETE_COURSE_OPTIMISTIC, course };
 }
 

@@ -8,7 +8,11 @@ import CourseForm from "./CourseForm";
 import Spinner from "../common/Spinner";
 import { toast } from "react-toastify";
 
-function ManageCoursePage({
+//this file constains 2 exports
+// Unconnected version por testing purposes
+// connected version (export default)
+
+export function ManageCoursePage({
     courses,
     authors,
     loadAuthors,
